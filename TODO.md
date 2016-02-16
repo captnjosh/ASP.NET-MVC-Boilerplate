@@ -24,6 +24,9 @@ Improvements that can be made to all project templates.
 - Add a CORS feature.
 - Add an option to choose the web-server you are using IIS, Nginx etc.
 - If Bootstrap 4 includes LESS support, add @ChrisOMetz's [pull request](https://github.com/RehanSaeed/ASP.NET-MVC-Boilerplate/pulls).
+- Manage when a @Html.Action does a "throw new HttpException(403,"Manually thrown forbidden access exception.");"
+- Manage when a @Html.Action does a "return new HttpStatusCodeResult(403, "HTTPStatus403. Manual return HttpStatusCodeResult.");"
+- Manage whenever a http://<website>/bin/website.config is type in adress bar. IIS has 'hiddenSegments' to forbid such folders as 'bin/'. A user friendly page would be more professionnal than the current "Yellow screen" "XML parsing error...".
 
 ## ASP.NET Core MVC 6 API
 
